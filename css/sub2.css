@@ -410,7 +410,9 @@ ul li {
 }
 .seri-box .seri {
   width: 360px;
+  height: 380px;
   margin: 0 10px;
+  position: relative;
 }
 .seri img {
   margin-bottom: 20px;
@@ -422,12 +424,16 @@ ul li {
   margin-bottom: 8px;
 }
 .seri .desc {
+  width: 300px;
   font-family: 'Pretendard-Regular';
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 22px;
+  color: #818181;
 }
 .seri a {
+  position: absolute;
+  bottom: 0;
   font-family: 'Pretendard-Regular';
   font-size: 16px;
   font-weight: 600;
